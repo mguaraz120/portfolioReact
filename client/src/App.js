@@ -4,9 +4,10 @@ import Container from "react-bootstrap/Container";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 
-import Home from "./components/Home";
-import About from "./components/About";
-import Contact from "./components/Contact";
+import Home from "./components/pages/Home";
+import About from "./components/pages/About";
+import Contact from "./components/pages/Contact";
+import Footer from "./components/Footer";
 function App() {
   return (
     <div>
@@ -33,6 +34,8 @@ function App() {
           <Route exact path="/" component={Home} />
           <Route path="/About" component={About} />
           <Route path="/Contact" component={Contact} />
+
+          <Footer />
         </Container>
       </Router>
     </div>
