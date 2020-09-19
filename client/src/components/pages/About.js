@@ -15,7 +15,25 @@ function About() {
           </Row>
         </Container>
       </Jumbotron>
-      <Content></Content>
+      <Content>
+        <p>
+          Hello, my name is Alejandro. I am a full-stack developer with some
+          experience in Node.js, Express.js, MySQL, MongoDB, Javascript and
+          React.
+        </p>
+        <p>
+          My dream is to one day start my own bussiness and become an
+          entrepreneur.
+        </p>
+        <p>
+          I am constantly learning new things and gaining more experience in
+          MongoDB, Express.js, Node.js and React.
+        </p>
+        <p>
+          Checkout some of my projects. I am currently working on two long term
+          projects with two of my friends. I hope to get them done soon.
+        </p>
+      </Content>
     </div>
   );
 }
